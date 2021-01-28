@@ -1,1 +1,3 @@
-# I'm too lazy to push my dots
+# I'm too lazy to create good description of NixOS configuration...
+
+![image[](https://i.imgur.com/Rqfqfgq.png)
