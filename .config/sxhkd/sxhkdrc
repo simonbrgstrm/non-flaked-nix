@@ -15,10 +15,37 @@ alt + @Return
 Print
 	maim -s -D -k | xclip -selection clipboard -t image/png
 
-# ] ----- BIND SCRIPTS ----- [
+# ] ----- MISC BINDINGS ----- [
+
+alt + g
+    sh ~/Scripts/notifications/greeting.sh
+
+alt + b 
+    polybar tags & disown && herbstclient pad 0 46 0 0 0
+
+alt + shift + b 
+    pkill polybar && herbstclient pad 0 0 0 0 0 
+
+
+# ] ----- BIND WDIGETS ----- [
 
 alt + d
-    sh ~/Scripts/notifications/date.sh
+    ~/.local/bin/eww open startpage && herbstclient pad 0 46 370 0 0
+
+alt + shift + d 
+    ~/.local/bin/eww close startpage && herbstclient pad 0 46 0 0 0 
+
+super + d 
+    sh ~/layouts/dwindle2.sh
+
+super + m
+    sh ~/layouts/centered-master.sh
+
+super + v
+    sh ~/layouts/vertical.sh
+
+super + r
+    sh ~/layouts/reset
 
 #  ] -----  HERBSTLUFTWM  ----- [
 
