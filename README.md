@@ -1,3 +1,3 @@
 # I'm too lazy to create good description of NixOS configuration...
 
-![image[](https://i.imgur.com/Rqfqfgq.png)
+![image](https://i.imgur.com/Rqfqfgq.png)
